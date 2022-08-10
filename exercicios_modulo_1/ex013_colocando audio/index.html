@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colocando musica</title>
+</head>
+<body>
+    <h1>colocando musica no seu site</h1>
+                            <!--(controls) para mostrar a barra de controle do audio-->
+    <audio src="Kiss The Heavens - Asher Fulero.mp3" controls></audio>
+    <!-- caso o site n tem suporte para o tipo de audio podemos criar de outro modo-->
+
+    <br> <h1>segundo modo de colocar audio</h1> <br>
+    <!--(preload) decidi se vai carregar antes de abrir o site durante ou so quando der play. 
+        (controls) para mostrar o audio no site 
+        (loop) para o audio ficar repetindo dps de acabar-->
+    <audio preload="none" controls loop>
+        <source src="Kiss The Heavens - Asher Fulero.mp3" type="audio/mpeg">
+        <source src="se fosse.ogg" type="audio/ogg">
+        <source src="se fosse.wav" type="audio/wav">
+    </audio>
+</body>
+</html>

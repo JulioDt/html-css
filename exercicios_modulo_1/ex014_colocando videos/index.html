@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colocando video no site</title>
+</head>
+<body>
+    <h1>como colocar videos no seu site</h1>
+    <h2>esse video esta hospedado no meu proprio servidor</h2>
+                             <!--metodo simples -->
+    <video src="video/file.mp4" width="160" height="300" controls ></video>
+                     
+                  <!--metodo mais correto e eficiente-->
+              <h2>segundo metodo melhor e mais eficiente</h2>
+            
+         <!--retire o (src) que vira junto com (video) e cria o (souce src)-->
+    <video width="160" height="300" controls preload="metadata"  >  
+        <source src="video/file.mp4" type="video/mp4" >  <!--vai caregar esse caso-->
+        <source src="caso seja.m4v" type="video/mp4" >   <!--nao consiga ele pula -->
+        <source src="caso seja.webm" type="video/webm" >  <!-- para o proximo-->
+        <source src="caso seja.ogv" type="video/ogg" >
+         <p>seu navegador nao e compativel para reproduzir o video</p>
+    </video>         
+           <!--inserindo video do youtube-->
+     <h1>inserindo video do youtube</h1>
+     <iframe width="560" height="315"controls src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <!--pegue o link que o proprio youtube gera-->
+
+    
+</body>
+</html>

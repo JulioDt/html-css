@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagem dinamica</title>
+</head>
+<body>
+    <H1>almentando e diminuindo tamanho da imagem automaticamente de acordo com a tela do dispositivo</H1>
+
+    <picture> <!-- trocar (min) por (max-width) -->
+    <source media="(max-width: 500px)" srcset="imagens/p.png" type="image/png">
+    <!--coloque a imagem em (srcset) e o tipo da imagem em (type) essa = /png-->
+    <source media="(max-width: 740px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/G.png" alt="imagem flexivel"> 
+    </picture>
+</body>
+</html>
