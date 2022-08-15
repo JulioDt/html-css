@@ -1,0 +1,14 @@
+h1 {text-align: center;}
+h2{text-align: center;}
+p{ text-align: left ;}
+
+/*testanto o (ID-principal) apenas em um elemento principal*/
+h1#principal{text-align: center;
+background-color: black;
+color: aliceblue;}
+
+
+/*testanto o (class) pode ser usado em varios elementos*/
+h1.basico{text-align: center;
+background-color: #ff0000;
+color: aliceblue;}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+/*
+                               #  = id
+                               .  = class
+                               :  = pseudo-class
+                               :: = pseudo-element
+                               >  = clildren
+*/
+        body{background-color: darkgrey;
+             font-family: Arial, Helvetica, sans-serif;}
+
+        a{color:dodgerblue;
+          text-decoration: none;/*retirar decoraçao(sumblinhado) do texto*/
+          font-weight: 600;} /*peso da fonte*/
+
+         a:hover{text-decoration: underline; /*texto sublinhado*/
+                 color:black ;}  /*cor ao passar o mouse por cima*/
+
+         a::after{content: ' [link]';
+                  color: dodgerblue;
+                  text-decoration: dodgerblue;
+                  font-weight: 500;}        
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li>
+            <a href="https://www.facebook.com/profile.php?id=100010519246098">Meu facebook</a>
+        </li><li>
+            <a href="https://www.instagram.com/julioo_dt/">Meu Instagram</a>
+        </li>
+    </ul>
+</body>
+</html>
