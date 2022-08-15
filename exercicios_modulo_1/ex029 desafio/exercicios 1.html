@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas exemplos</title>
+</head>
+<body>
+    <style>
+        table {
+            border-collapse: collapse;
+            font-size: x-large;
+            font-weight: 700;
+            
+        }
+
+        td, th {
+            border: 4px solid black;
+            padding: 5px;
+            text-align: center;
+            width: 100px;
+            height: 30px;
+          
+        }
+    </style>
+</head>
+<body>
+    <h1>mesclagem de células</h1>
+
+    <table>
+        <caption>FILMES FAVORITOS</caption>
+            <tr>
+                 <th scope="col">GRUPOS</th>
+                 <th scope="col">NOMES</th>
+                 <th colspan="3" scope="colgroup">FILMES</th>
+            </tr>
+            <tr>
+                 <th rowspan="2" scope="rowgroup">MULHERES</th>
+                 <td>ana</td>
+                 <td>alien</td>
+                 <td>rambo</td>
+                 <td>vingadores</td>
+                
+            </tr>
+            <tr>
+                 
+                 <td>bia</td>
+                 <td>hulk</td>
+                 <td>matrix</td>
+                 <td>big hero</td>
+                
+            </tr>
+            <tr>
+                 <th rowspan="2" scope="rowgroup">HOMENS</th>
+                 <td>bruno</td>
+                 <td>wall-e</td>
+                 <td>Oldboy</td>
+                 <td>dangal</td>
+            </tr>
+            <tr>
+            
+                 <td>fabio</td>
+                 <td>taxi drive</td>
+                 <td>intocavel</td>
+                 <td> toy story</td>
+            </tr>
+
+        <tfoot>
+            <th colspan="4" scope="row">TOTAL</th>
+            <td>1000</td>
+        </tfoot>
+
+       
+    </table>
+</body>
+</html>

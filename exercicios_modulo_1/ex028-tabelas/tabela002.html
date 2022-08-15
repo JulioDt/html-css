@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas grandes </title>
+    <style>
+        table {
+            border-collapse: collapse;
+            padding: 5px ;
+            position: relative;
+        }
+
+        thead > tr > th {  /*titulo da coluna FIXADO*/
+            position: sticky;
+            top: -1px;
+            background-color: #6a6a6a;
+        }
+
+        td, th {
+            border: 2px solid black;
+            padding: 5px ;
+            width: 200px;
+        }
+
+        th, .um {background-color: #6a6a6a;
+        color: white;
+        text-align: center;
+    }
+
+    tr:nth-child(2n) { /* EFEITO ZEBRADO*/
+        background-color: #9cc2c3; 
+    }
+
+    caption {
+        background-color:#9cc2c3 ;
+        font-size: 1.5em;
+        font-weight: bold;
+        padding:  10px;
+        border: 2px solid black;
+
+    }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas grandes </h1>
+    <!--
+        ANATOMIA PARA TABEÇAS GRANDES 
+
+         TABLE
+             CAPTION
+                 THEAD
+                     TR,  TD, TH
+                 TBODY
+                     TR,  TD, TH
+                 TFOOT
+                     TR,  TD, TH
+
+    -->
+
+    <table>
+        <caption>
+            populaçao brasileira
+        </caption>
+            <thead>
+                <tr>
+                    <th>ESTADOS</th>
+                    <th>POPULAÇAO</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Sâo Paulo</td>
+                    <td>45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>23 456 852</td>
+                </tr>
+                <tr>
+                    <td>Rio De Janeiro</td>
+                    <td>17 919 049</td>
+                </tr>
+                <tr>
+                    <td>Sâo Paulo</td>
+                    <td>45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>23 456 852</td>
+                </tr>
+                <tr>
+                    <td>Rio De Janeiro</td>
+                    <td>17 919 049</td>
+                </tr>
+                <tr>
+                    <td>Sâo Paulo</td>
+                    <td>45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>23 456 852</td>
+                </tr>
+                <tr>
+                    <td>Rio De Janeiro</td>
+                    <td>17 919 049</td>
+                </tr>
+                <tr>
+                    <td>Sâo Paulo</td>
+                    <td>45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>23 456 852</td>
+                </tr>
+                <tr>
+                    <td>Rio De Janeiro</td>
+                    <td>17 919 049</td>
+                </tr>
+                <tr>
+                    <td>Sâo Paulo</td>
+                    <td>45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>23 456 852</td>
+                </tr>
+                <tr>
+                    <td>Rio De Janeiro</td>
+                    <td>17 919 049</td>
+                </tr>
+                <tr>
+                    <td>Sâo Paulo</td>
+                    <td>45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>23 456 852</td>
+                </tr>
+                <tr>
+                    <td>Rio De Janeiro</td>
+                    <td>17 919 049</td>
+                </tr>
+                <tr>
+                    <td>Sâo Paulo</td>
+                    <td>45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>23 456 852</td>
+                </tr>
+                <tr>
+                    <td>Rio De Janeiro</td>
+                    <td>17 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>23 456 852</td>
+                </tr>
+                <tr>
+                    <td>Rio De Janeiro</td>
+                    <td>17 919 049</td>
+                </tr>
+                <tr>
+                    <td>Sâo Paulo</td>
+                    <td>45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>23 456 852</td>
+                </tr>
+                <tr>
+                    <td>Rio De Janeiro</td>
+                    <td>17 919 049</td>
+                </tr>
+                <tr>
+                    <td>Sâo Paulo</td>
+                    <td>45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>23 456 852</td>
+                </tr>
+                <tr>
+                    <td>Rio De Janeiro</td>
+                    <td>17 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>23 456 852</td>
+                </tr>
+                <tr>
+                    <td>Rio De Janeiro</td>
+                    <td>17 919 049</td>
+                </tr>
+                <tr>
+                    <td>Sâo Paulo</td>
+                    <td>45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>23 456 852</td>
+                </tr>
+                <tr>
+                    <td>Rio De Janeiro</td>
+                    <td>17 919 049</td>
+                </tr>
+                <tr>
+                    <td>Sâo Paulo</td>
+                    <td>45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>23 456 852</td>
+                </tr>
+                <tr>
+                    <td>Rio De Janeiro</td>
+                    <td>17 919 049</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th>TOTAL DE HABITANTES</th>
+                    <td class="um"><strong>0000000</strong></td>
+                </tr>
+            </tfoot>
+    </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ut officia voluptatibus, repellat atque dolore aperiam id soluta nihil eum ab? Tempore a, possimus non ducimus magni accusantium reiciendis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui nobis fugit praesentium illum explicabo magni reiciendis natus, aspernatur facere laudantium minus nam sit dignissimos fugiat maiores fuga neque architecto?</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ut officia voluptatibus, repellat atque dolore aperiam id soluta nihil eum ab? Tempore a, possimus non ducimus magni accusantium reiciendis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui nobis fugit praesentium illum explicabo magni reiciendis natus, aspernatur facere laudantium minus nam sit dignissimos fugiat maiores fuga neque architecto?</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ut officia voluptatibus, repellat atque dolore aperiam id soluta nihil eum ab? Tempore a, possimus non ducimus magni accusantium reiciendis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui nobis fugit praesentium illum explicabo magni reiciendis natus, aspernatur facere laudantium minus nam sit dignissimos fugiat maiores fuga neque architecto?</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ut officia voluptatibus, repellat atque dolore aperiam id soluta nihil eum ab? Tempore a, possimus non ducimus magni accusantium reiciendis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui nobis fugit praesentium illum explicabo magni reiciendis natus, aspernatur facere laudantium minus nam sit dignissimos fugiat maiores fuga neque architecto?</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ut officia voluptatibus, repellat atque dolore aperiam id soluta nihil eum ab? Tempore a, possimus non ducimus magni accusantium reiciendis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui nobis fugit praesentium illum explicabo magni reiciendis natus, aspernatur facere laudantium minus nam sit dignissimos fugiat maiores fuga neque architecto?</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ut officia voluptatibus, repellat atque dolore aperiam id soluta nihil eum ab? Tempore a, possimus non ducimus magni accusantium reiciendis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui nobis fugit praesentium illum explicabo magni reiciendis natus, aspernatur facere laudantium minus nam sit dignissimos fugiat maiores fuga neque architecto?</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ut officia voluptatibus, repellat atque dolore aperiam id soluta nihil eum ab? Tempore a, possimus non ducimus magni accusantium reiciendis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui nobis fugit praesentium illum explicabo magni reiciendis natus, aspernatur facere laudantium minus nam sit dignissimos fugiat maiores fuga neque architecto?</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ut officia voluptatibus, repellat atque dolore aperiam id soluta nihil eum ab? Tempore a, possimus non ducimus magni accusantium reiciendis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui nobis fugit praesentium illum explicabo magni reiciendis natus, aspernatur facere laudantium minus nam sit dignissimos fugiat maiores fuga neque architecto?</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ut officia voluptatibus, repellat atque dolore aperiam id soluta nihil eum ab? Tempore a, possimus non ducimus magni accusantium reiciendis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui nobis fugit praesentium illum explicabo magni reiciendis natus, aspernatur facere laudantium minus nam sit dignissimos fugiat maiores fuga neque architecto?</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ut officia voluptatibus, repellat atque dolore aperiam id soluta nihil eum ab? Tempore a, possimus non ducimus magni accusantium reiciendis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui nobis fugit praesentium illum explicabo magni reiciendis natus, aspernatur facere laudantium minus nam sit dignissimos fugiat maiores fuga neque architecto?</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ut officia voluptatibus, repellat atque dolore aperiam id soluta nihil eum ab? Tempore a, possimus non ducimus magni accusantium reiciendis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui nobis fugit praesentium illum explicabo magni reiciendis natus, aspernatur facere laudantium minus nam sit dignissimos fugiat maiores fuga neque architecto?</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ut officia voluptatibus, repellat atque dolore aperiam id soluta nihil eum ab? Tempore a, possimus non ducimus magni accusantium reiciendis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui nobis fugit praesentium illum explicabo magni reiciendis natus, aspernatur facere laudantium minus nam sit dignissimos fugiat maiores fuga neque architecto?</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ut officia voluptatibus, repellat atque dolore aperiam id soluta nihil eum ab? Tempore a, possimus non ducimus magni accusantium reiciendis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui nobis fugit praesentium illum explicabo magni reiciendis natus, aspernatur facere laudantium minus nam sit dignissimos fugiat maiores fuga neque architecto?</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ut officia voluptatibus, repellat atque dolore aperiam id soluta nihil eum ab? Tempore a, possimus non ducimus magni accusantium reiciendis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui nobis fugit praesentium illum explicabo magni reiciendis natus, aspernatur facere laudantium minus nam sit dignissimos fugiat maiores fuga neque architecto?</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ut officia voluptatibus, repellat atque dolore aperiam id soluta nihil eum ab? Tempore a, possimus non ducimus magni accusantium reiciendis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui nobis fugit praesentium illum explicabo magni reiciendis natus, aspernatur facere laudantium minus nam sit dignissimos fugiat maiores fuga neque architecto?</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ut officia voluptatibus, repellat atque dolore aperiam id soluta nihil eum ab? Tempore a, possimus non ducimus magni accusantium reiciendis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui nobis fugit praesentium illum explicabo magni reiciendis natus, aspernatur facere laudantium minus nam sit dignissimos fugiat maiores fuga neque architecto?</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ut officia voluptatibus, repellat atque dolore aperiam id soluta nihil eum ab? Tempore a, possimus non ducimus magni accusantium reiciendis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui nobis fugit praesentium illum explicabo magni reiciendis natus, aspernatur facere laudantium minus nam sit dignissimos fugiat maiores fuga neque architecto?</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ut officia voluptatibus, repellat atque dolore aperiam id soluta nihil eum ab? Tempore a, possimus non ducimus magni accusantium reiciendis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui nobis fugit praesentium illum explicabo magni reiciendis natus, aspernatur facere laudantium minus nam sit dignissimos fugiat maiores fuga neque architecto?</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ut officia voluptatibus, repellat atque dolore aperiam id soluta nihil eum ab? Tempore a, possimus non ducimus magni accusantium reiciendis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui nobis fugit praesentium illum explicabo magni reiciendis natus, aspernatur facere laudantium minus nam sit dignissimos fugiat maiores fuga neque architecto?</p>
+</body>
+</html>
