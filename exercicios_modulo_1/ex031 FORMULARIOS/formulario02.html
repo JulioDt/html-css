@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>Preencha os campos abaixo</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+             <label for="inom">Usuário :</label>
+             <input type="text" name="" id="inom" required minlength="5" maxlength="30" size="20"
+             placeholder="Nome do usuario" autocomplete="username"
+             >
+             <!--(minlenght)= tamanho minimo (size) = tamanho da caixa (placeholder) = vai dar a dica na caixa (autocomplete) = para informa que é um usuario-->  
+        </p>
+
+        <p>
+             <label for="isen">Senha :</label>
+             <input type="password" name="" id="isen" required minlength="8" maxlength="20" size="15"
+             placeholder="Digite a senha" autocomplete="current-password"
+             >
+        </p>
+
+        <p> 
+             <input type="submit" value="Enviar"> <!--botao para enviar -->
+             <input type="reset" value="Limpa"> <!--botao para limpar-->
+        </p>
+    </form>
+</body>
+</html>
